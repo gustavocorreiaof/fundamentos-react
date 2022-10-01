@@ -1,7 +1,7 @@
 import React from "react";
-import Primeiro from './components/basicos/Primeiro';
-import Segundo from './components/basicos/ComponenteComParametro';
-import Fragmento from './components/basicos/ReactFragment';
+import Primeiro from './components/Basicos/Primeiro';
+import Segundo from './components/Basicos/ComponenteComParametro';
+import Fragmento from './components/Basicos/ReactFragment';
 
 export default function App(props){
     return(
