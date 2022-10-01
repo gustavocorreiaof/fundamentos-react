@@ -8,8 +8,7 @@ export default function Fragmento(props){
         // <><></> assim seus elementos serão inseridos no HTML sem ter tags
 
         <>
-            <h2>Fragmento</h2>
-            <p>Mensagem padrão de erro.</p>
+            <h2>Fragmento Mensagem padrão de erro.</h2>
         </>
     )
 }
