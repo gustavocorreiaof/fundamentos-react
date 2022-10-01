@@ -1,20 +1,11 @@
 import ReactDOM from 'react-dom';
-import React from 'react';
 import './index.css'
-import Primeiro from './components/basicos/Primeiro';
-import Segundo from './components/basicos/ComponenteComParametro';
-import Fragmento from './components/basicos/ReactFragment';
-
+import App from './App'
+import Random from './components/basicos/Aleatorio'
 
 ReactDOM.render(
-    <div id='app'>
-        <Primeiro></Primeiro>
-        <hr></hr>
-        <Segundo 
-            titulo="Area de Teste" 
-            subtitulo="Segundo Componente com conteudos enviados do Index.js">
-        </Segundo>
-        <Fragmento></Fragmento>
-    </div>, 
+    <div>
+        <Random max = {10} min ={0}></Random>
+    </div>,
     document.getElementById("root")
 )
